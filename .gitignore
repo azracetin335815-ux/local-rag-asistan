@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+data/knowledge.db
+data/model_cache/
+.vscode/
