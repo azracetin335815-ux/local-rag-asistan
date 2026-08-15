@@ -1,0 +1,197 @@
+﻿{
+  "aciklama": "Yerel RAG Asistani test soru seti",
+  "surum": "1.0",
+  "bilgi_tabani": "data/docs/",
+  "sorular": [
+    {
+      "id": "C01",
+      "kategori": "cevaplanabilir",
+      "soru": "Bakim araligi kac saattir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["500"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "cihaz_kilavuzu.md",
+      "not": "Temel sayisal bilgi sorusu"
+    },
+    {
+      "id": "C02",
+      "kategori": "cevaplanabilir",
+      "soru": "Urun garantisi ne kadar surer?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["24"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "sss.md",
+      "not": "Garanti suresi"
+    },
+    {
+      "id": "C03",
+      "kategori": "cevaplanabilir",
+      "soru": "Yillik izin hakki kac gundur?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["14", "20"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "calisan_el_kitabi.md",
+      "not": "Iki farkli deger var, biri yeterli"
+    },
+    {
+      "id": "C04",
+      "kategori": "cevaplanabilir",
+      "soru": "Uzaktan calisma haftada kac gun yapilabilir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["2", "iki"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "calisan_el_kitabi.md",
+      "not": "Politika sorusu"
+    },
+    {
+      "id": "C05",
+      "kategori": "cevaplanabilir",
+      "soru": "Iade suresi ne kadardir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["14"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "sss.md",
+      "not": "Iade politikasi"
+    },
+    {
+      "id": "C06",
+      "kategori": "cevaplanabilir",
+      "soru": "Cihaz kac volt ile calisir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["380"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "cihaz_kilavuzu.md",
+      "not": "Teknik ozellik"
+    },
+    {
+      "id": "C07",
+      "kategori": "cevaplanabilir",
+      "soru": "Filtre nasil temizlenir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["kapak", "hava", "kartus", "cikar"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "cihaz_kilavuzu.md",
+      "not": "Prosedur sorusu - anahtar kelimelerden biri yeterli"
+    },
+    {
+      "id": "C08",
+      "kategori": "cevaplanabilir",
+      "soru": "Teknik destek hangi saatlerde calisir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["09", "18", "hafta"],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": "sss.md",
+      "not": "Calisma saatleri"
+    },
+    {
+      "id": "R01",
+      "kategori": "cevaplanamaz",
+      "soru": "Istanbul'un nufusu kactir?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": ["milyon", "nufus"],
+      "beklenen_kaynak": null,
+      "not": "Genel kultur - bilgi tabaninda yok"
+    },
+    {
+      "id": "R02",
+      "kategori": "cevaplanamaz",
+      "soru": "Python'da liste nasil siralanir?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": ["sort", "sorted"],
+      "beklenen_kaynak": null,
+      "not": "Teknik ama alakasiz konu"
+    },
+    {
+      "id": "R03",
+      "kategori": "cevaplanamaz",
+      "soru": "Dolar kuru bugun kac lira?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": null,
+      "not": "Guncel veri - sistemde olmasi imkansiz"
+    },
+    {
+      "id": "R04",
+      "kategori": "cevaplanamaz",
+      "soru": "Sirketin 2025 yili cirosu ne kadardir?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": ["milyon", "milyar", "TL"],
+      "beklenen_kaynak": null,
+      "not": "Kurumsal ama dokumanda olmayan bilgi"
+    },
+    {
+      "id": "R05",
+      "kategori": "cevaplanamaz",
+      "soru": "En iyi pizza tarifi nedir?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": ["hamur", "peynir", "firin"],
+      "beklenen_kaynak": null,
+      "not": "Tamamen alakasiz"
+    },
+    {
+      "id": "R06",
+      "kategori": "cevaplanamaz",
+      "soru": "Cihazin uretim maliyeti kac liradir?",
+      "beklenen_davranis": "reddet",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": null,
+      "not": "Konuyla ilgili ama dokumanda yok - zorlu ornek"
+    },
+    {
+      "id": "T01",
+      "kategori": "tuzak",
+      "soru": "Cihazin 1000 saatlik bakim prosedurunde neler yapilir?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["500"],
+      "yasak_kelimeler": ["1000 saatlik bakim"],
+      "beklenen_kaynak": "cihaz_kilavuzu.md",
+      "not": "Yanlis varsayim - dogru deger 500. Model 1000'i onaylamamali."
+    },
+    {
+      "id": "T02",
+      "kategori": "tuzak",
+      "soru": "Garanti suresi 36 ay mi?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["24"],
+      "yasak_kelimeler": ["evet, 36", "36 aydir"],
+      "beklenen_kaynak": "sss.md",
+      "not": "Yanlis varsayim - dogru deger 24 ay"
+    },
+    {
+      "id": "T03",
+      "kategori": "tuzak",
+      "soru": "Uzaktan calisma haftada 5 gun yapilabiliyor degil mi?",
+      "beklenen_davranis": "cevapla",
+      "anahtar_kelimeler": ["2", "iki"],
+      "yasak_kelimeler": ["evet, 5", "5 gun yapilabilir"],
+      "beklenen_kaynak": "calisan_el_kitabi.md",
+      "not": "Yanlis varsayim - dogru deger 2 gun"
+    },
+    {
+      "id": "S01",
+      "kategori": "sinir",
+      "soru": "Cihaz gurultulu calisiyorsa ne yapmaliyim?",
+      "beklenen_davranis": "esnek",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": null,
+      "not": "Kismen ilgili - ariza kodlari var ama gurultu yok"
+    },
+    {
+      "id": "S02",
+      "kategori": "sinir",
+      "soru": "Calisanlar icin egitim var mi?",
+      "beklenen_davranis": "esnek",
+      "anahtar_kelimeler": [],
+      "yasak_kelimeler": [],
+      "beklenen_kaynak": null,
+      "not": "Operator egitimi bolumu var - bulabilirse iyi"
+    }
+  ]
+}

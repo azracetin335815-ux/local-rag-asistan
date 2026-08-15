@@ -1,0 +1,11 @@
+﻿# Foundry Local SDK (Windows - WinML hizlandirmali)
+# macOS/Linux icin: foundry-local-sdk
+foundry-local-sdk-winml
+openai
+# Sayisal islemler
+numpy
+# Web arayuzu
+streamlit
+# Dosya okuma
+pypdf
+python-docx
